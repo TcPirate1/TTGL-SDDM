@@ -10,9 +10,9 @@ This is a theme for the [SDDM login manager](https://github.com/sddm/sddm)
 # Dependencies
 > [!IMPORTANT]
 > You need to download the dependencies for the configuration to work.
-* You need donwload **sddm,noto-fonts-cjk,otf-ipafont**(Comands for arch).
+* You need donwload **sddm,noto-fonts-cjk,otf-ipafont,qt5-graphicaleffects,qt5-quickcontrols2**(Comands for arch).
 <pre>sudo pacman -S sddm noto-fonts-cjk
-yay -S otf-ipafont</pre>
+yay -S otf-ipafont qt5-graphicaleffects qt5-quickcontrols2</pre>
 # Install
 1. Clone this repository 
 <pre>sudo git clone https://github.com/Arnau029/Makima-SDDM.git</pre>
