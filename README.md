@@ -1,12 +1,12 @@
-# Makima-SDDM
+# TTGL-SDDM
 This is a theme for the [SDDM login manager](https://github.com/sddm/sddm)
  * You can customize it in [theme.conf](https://github.com/Arnau029/Makima-SDDM/blob/main/theme.conf).
  * Screen Resolution: 1920x1080
- * Anime=Makima(Chainsaw man)
+ * Anime=TTGL (Gurren Lagaan)
 # Previews
-![Preview](https://github.com/Arnau029/Makima-SDDM/blob/main/Previews/Left.png)
-![Preview](https://github.com/Arnau029/Makima-SDDM/blob/main/Previews/Center.png)
-![Preview](https://github.com/Arnau029/Makima-SDDM/blob/main/Previews/Right.png)
+Literally the same as the [Makima theme](https://github.com/Arnau029/Makima-SDDM) but I have changed the background image and the highlight and background colours. Everything else is done by them.
+
+
 # Dependencies
 > [!IMPORTANT]
 > You need to download the dependencies for the configuration to work.
@@ -20,8 +20,9 @@ yay -S otf-ipafont qt5-graphicaleffects qt5-quickcontrols2</pre>
 <pre>sudo mv Makima-SDDM /usr/share/sddm/themes</pre>
 3. Then edit <code>/etc/sddm.conf</code>and change it to look like this:
 <pre>[Theme]
-#Current the name
+#Current theme name
 Current=Makima-SDDM
 </pre>
+4. Need to make sure your system can render Japanese text (or just remove the header text by making `HeaderText=""`)
 # Credits
 Based in the files of [Sugar Dark](https://github.com/MarianArlt/sddm-sugar-dark) By ***MariaArtl***
